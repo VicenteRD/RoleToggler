@@ -210,7 +210,7 @@ class RoleToggler:
             self._settings.write(str(server.id), {})
 
         if channel_id_key not in self._settings.read():
-            if channel_id is None:in
+            if channel_id is None:
                 ctx.send("Channel is not set, please specify one.")
                 return
             else:
