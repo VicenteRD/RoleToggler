@@ -3,7 +3,6 @@ from discord import TextChannel
 from discord.ext import commands
 
 from redbot.core import checks
-from redbot.core.context import RedContext
 
 from redbot.core.json_io import JsonIO, PRETTY
 
@@ -126,7 +125,7 @@ class RoleToggler:
 
     @commands.group()
     @checks.admin_or_permissions()
-    async def rtoggler(self, ctx: RedContext):
+    async def rtoggler(self, ctx):
         """ Commands that let you setup a message reaction to let users opt
             in/out of a certain role. Useful for letting users choose whether
             they want to be notified about a livestream going live or not.
@@ -139,7 +138,7 @@ class RoleToggler:
                 emoji: Gives an emoji to use as the reaction.
         """
         if ctx.invoked_subcommand is None:
-            await ctx.send_help()  # PLEAAAASE
+            await ctx.send("You're not the only one, but you're doing things wrong...")
 
     @rtoggler.command(name="reload")
     async def _reload(self, ctx):
