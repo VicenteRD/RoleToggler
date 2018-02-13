@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "Sherpa",
+    "NAME" : "RoleToggler",
+    "SHORT" : "Provides a toggle reaction. Lets user acquire/get rid of a certain role",
+    "DESCRIPTION" : "Setup is admin-only.\nSee [p]help rtoggler for info.",
+    "TAGS" : ["role", "toggle", "user", "livestream", "alert"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
+}

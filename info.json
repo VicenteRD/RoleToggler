@@ -1,9 +1,7 @@
 {
     "AUTHOR" : "Sherpa",
-    "NAME" : "RoleToggler",
-    "SHORT" : "Provides a toggle reaction. Lets user acquire/get rid of a certain role",
-    "DESCRIPTION" : "Setup is admin-only.\nSee [p]help rtoggler for info.",
-    "TAGS" : ["role", "toggle", "user", "livestream", "alert"],
-    "REQUIREMENTS" : [],
-    "HIDDEN" : false
+    "INSTALL_MSG" : "A install message that appears as soon as the end user does !cog repo add",
+    "NAME" : "Sherpa-Cogs",
+    "SHORT" : "General utility cogs made by Sherpa",
+    "DESCRIPTION" : "Cogs made initially for Xisuma's community discord, that you might find useful."
 }
